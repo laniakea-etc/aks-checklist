@@ -28,7 +28,7 @@ jobs:
       uses: srfrnk/current-time@master
       id: current-time
       with:
-        format: DD-MM-YYYY
+        format: DD-MMM-YYYY
 
     - uses: cschleiden/replace-tokens@v1
       name: inject date
